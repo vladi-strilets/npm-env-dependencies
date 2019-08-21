@@ -5,7 +5,7 @@ Specify multiple dependencies to be installed vía package.json by env name.
 To install do
 
 ```
-npm install -g npm-env-dependencies
+npm install npm-env-dependencies
 ```
 
 Use example:
