@@ -26,7 +26,7 @@ if (dependenciesCurrentEnv && Object.keys(dependenciesCurrentEnv).length) {
 			var options = {
 				stdio: "inherit"
 			};
-			log(npmArgs);
+			// log(npmArgs);
 			spawn.sync("npm", npmArgs, options);
 		}
 	}
@@ -41,7 +41,7 @@ if (dependenciesCurrentEnv && Object.keys(dependenciesCurrentEnv).length) {
 	var options = {
 		stdio: "inherit"
 	};
-	log(npmArgs);
+	// log(npmArgs);
 	spawn.sync("npm", npmArgs, options);
 } else {
 	log("No specific dependencies on " + currentEnv);
