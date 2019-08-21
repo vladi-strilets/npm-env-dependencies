@@ -1,6 +1,6 @@
 {
 	"name": "npm-env-dependencies",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Module to specify dependencies for different enviroment variables for package.json.",
 	"main": "index.js",
 	"bin": {
